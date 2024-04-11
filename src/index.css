@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradient-linear {
+  background: linear-gradient(
+    to bottom right,
+    rgba(230, 238, 255, 1),
+    rgba(250, 252, 255, 1)
+  );
+}
+.bg-gradient-linear_2 {
+  background: linear-gradient(
+    to bottom right,
+    rgba(229, 238, 255, 1),
+    rgba(250, 252, 255, 1)
+  );
+}
+.bg-gradient-linear_3 {
+  background: linear-gradient(
+    to bottom right,
+    rgba(239, 243, 253, 1),
+    rgba(239, 243, 253, 0)
+  );
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+}
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: 0;
+}
+.searchinput::placeholder {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: rgba(148, 148, 148, 1);
+}
